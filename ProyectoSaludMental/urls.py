@@ -16,7 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from saludMental import views as vista
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', vista.login, name="Login"),
+    path('Registrar/', vista.registrar, name="Registrar"),
+    path('Menu/', vista.menu, name="Menu"),
+    path('logout/', vista.logout_view, name='logout'),
 ]
