@@ -31,7 +31,11 @@ def registrar(request):
     data = {}
     return render(request, 'Registrar.html', data)
 
+def grupo(request):
+    data = {
 
+    }
+    return render(request,'GruposdeApoyo.html',data)
 
 
 

@@ -25,4 +25,5 @@ urlpatterns = [
     path('Registrar/', vista.registrar, name="Registrar"),
     path('Menu/', vista.menu, name="Menu"),
     path('logout/', vista.logout_view, name='logout'),
+    path('Grupo/',vista.grupo,name="Grupo"),
 ]
