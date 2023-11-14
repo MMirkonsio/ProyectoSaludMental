@@ -11,6 +11,92 @@
 </head>
 
 <body>
+{% load static %}
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="shortcut icon" href="{% static 'images/logo.png' %}" type="image/x-icon">
+    <title>Grupos de Apoyo</title>
+</head>
+
+<body style="background-color:lightblue;">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <br><br>
+                <h1 class="Titulo" style="text-align: left ; color: cornsilk; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Grupos de Apoyo</h1>
+            </div>
+            <br><br><br><br><br><br>
+            <div class="clearfix">
+                <div class="col-md-6 float-md-end mb-3 ms-md-3">
+                    <div class="card-group">
+                        <div class="card text-bg-secondary">
+                            <div class="card-body">
+                                <br><br>
+                                <h5 class="card-title">Grupo 3</h5>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                    </svg> Usuario 1</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                    </svg>Usuario 2</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                    </svg>Usuario 3</p>
+                                <br>
+                                <button type="submit" class="btn btn-light btn-lg">Unirse</button>
+                            </div>
+                        </div>
+                        <div class="card text-bg-warning">
+                            <div style="text-align: center;"><h4>Grupo</h4></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Grupo 2</h5>
+                                <p class="card-text"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                    </svg>Usuario 1</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                    </svg>Usuario 2</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                    </svg>Usuario 3</p>
+                                    <br><br>
+                                <button type="submit" class="btn btn-light btn-lg">Unirse</button>
+                            </div>
+                        </div>
+                        <div class="card text-bg-primary" >
+                            <br><br>
+                            <div class="card-body ">
+                                <h5 class="card-title">Grupo 3</h5>
+                                <p class="card-text "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                    </svg>Usuario 1 </p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                    </svg>Usuario 2</p>
+                                <p class="card-text "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                    </svg>Usuario 3</p>
+                                    <br>
+                                <button type="submit" class="btn btn-light btn-lg">Unirse</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="color: cornsilk; font-size: 20;">
+                    Unirse a grupos de apoyo temáticos puede ser una experiencia transformadora y enriquecedora en muchos niveles. Estas Comunidades Ofrecen un espacio seguro y acogedor donde puedes conectarte con personas que compartan tus mismos intereses, desafios o metas. 
+                </p>
+                <img src="{% static 'images/comunidad.png' %}" alt="grupo de apoyo" width="600" height="auto">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
 
 
 </body>
